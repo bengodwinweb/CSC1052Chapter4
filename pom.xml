@@ -8,5 +8,18 @@
     <artifactId>GodwinChapter4Exercises</artifactId>
     <version>1</version>
 
+    <properties>
+        <maven.compiler.target>1.11</maven.compiler.target>
+        <maven.compiler.source>1.11</maven.compiler.source>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
